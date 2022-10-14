@@ -66,7 +66,7 @@ public class ListFor_eachLoop {
 
         timeStart = System.nanoTime();
 
-        for (int i=randomArrLenght; i<0; i--){
+        for (int i=randomArrLenght-1; i>=0; i--){
             temp = myList.get(i);
             System.out.print(temp + ", ");
         }
