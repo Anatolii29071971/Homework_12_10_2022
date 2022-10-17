@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-public class ListFor_eachLoop {
+public class ListForEachLoop {
     /*
 
 
@@ -18,7 +18,7 @@ public class ListFor_eachLoop {
         // 1. создать лист, наполнить его 10М> елементами
         int randomArrLenght = 20;
 
-        long timeStart = System.nanoTime();
+        long timeStart;
         int temp;
         List<Integer> myList = new ArrayList<>();
         System.out.print("myList: ");
